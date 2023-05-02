@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #2f4f4f, #4f4f4f);
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #f5f5f5;
+    text-shadow: 2px 2px #000000;
+    background-image: linear-gradient(to bottom right, #f9005f, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  h1:hover {
+    transform: scale(1.1);
+  }
+
+.container{
+    padding-top: 50px;
+    background: linear-gradient(to bottom, #f0e68c, #fffacd);
+    border-radius: 8px;
+    width:50%;
+    height: 90%;
+    box-shadow:10px 10px 20px #060606,
+            -2px -2px 6px #ffffff;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell{
+    background: linear-gradient(to bottom, #f5deb3, #fff8dc);
+    border:none;
+    width:100px;
+    height:100px;
+    display: flex;
+    font-size: 4rem;
+    margin:10px;
+    justify-content: center;
+    align-items:center;
+    border-radius: 5px;
+    box-shadow: inset 4px 4px 8px #a0a2a2,
+                 inset -2px -2px 2px #b3b7b7;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.cell:hover{
+    background: linear-gradient(to bottom, #fffaf0, #f8f8ff);
+}
+
+.cell.x{
+    color:#ee1313
+}
+
+.cell.o{
+    color:#05c558
+}
+
+button {
+    background: linear-gradient(to bottom, #556b2f, #8fbc8f);
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 3px 5px #777777, inset 0 0 0px #777777;
+    transition: transform 200ms;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #1e90ff, #87cefa);
+    box-shadow: 0 0px 0px #777777, inset 0 0 10px #777777;
+}
+
+
+
+
+
+
+
